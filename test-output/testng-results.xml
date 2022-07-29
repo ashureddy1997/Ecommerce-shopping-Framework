@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="21" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T14:48:02Z" name="Suite" finished-at="2022-05-01T14:53:17Z" duration-ms="315517">
+    <groups>
+      <group name="Sanity">
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.ecommerce.testcases.AddToCartPageTest@5b1ebf56]" name="addToCartTest" class="com.ecommerce.testcases.AddToCartPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.testcases.LoginPageTest@77825085]" name="loginTest" class="com.ecommerce.testcases.LoginPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.ecommerce.testcases.AddToCartPageTest@5b1ebf56]" name="addToCartTest" class="com.ecommerce.testcases.AddToCartPageTest"/>
+        <method signature="EndToEndTest.endToEndTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.testcases.EndToEndTest@4b1d6571]" name="endToEndTest" class="com.ecommerce.testcases.EndToEndTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.testcases.OrderPageTest@3e7dd664]" name="verifyTotalPrice" class="com.ecommerce.testcases.OrderPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="HomePageTest.orderHistoryandDetailsTest(java.lang.String, java.lang.String)[pri:2, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" name="orderHistoryandDetailsTest" class="com.ecommerce.testcases.HomePageTest"/>
+        <method signature="HomePageTest.wishListTest(java.lang.String, java.lang.String)[pri:1, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" name="wishListTest" class="com.ecommerce.testcases.HomePageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" name="verifyLogo" class="com.ecommerce.testcases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" name="verifyTitle" class="com.ecommerce.testcases.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.testcases.LoginPageTest@77825085]" name="loginTest" class="com.ecommerce.testcases.LoginPageTest"/>
+        <method signature="SearchResultPageTest.productAvailabilityTest()[pri:0, instance:com.ecommerce.testcases.SearchResultPageTest@294a6b8e]" name="productAvailabilityTest" class="com.ecommerce.testcases.SearchResultPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-05-01T14:48:02Z" name="Test_All" finished-at="2022-05-01T14:53:17Z" duration-ms="315517">
+      <class name="com.ecommerce.testcases.EndToEndTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.EndToEndTest@4b1d6571]" started-at="2022-05-01T20:19:58Z" name="setup" finished-at="2022-05-01T20:20:11Z" duration-ms="12743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.testcases.EndToEndTest@4b1d6571]" started-at="2022-05-01T20:20:11Z" name="endToEndTest" data-provider="getProduct" finished-at="2022-05-01T20:21:15Z" duration-ms="64186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.EndToEndTest@4b1d6571]" started-at="2022-05-01T20:21:15Z" name="tearDown" finished-at="2022-05-01T20:21:15Z" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.testcases.EndToEndTest -->
+      <class name="com.ecommerce.testcases.AddToCartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.AddToCartPageTest@5b1ebf56]" started-at="2022-05-01T20:22:40Z" name="setup" finished-at="2022-05-01T20:22:49Z" duration-ms="8746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.ecommerce.testcases.AddToCartPageTest@5b1ebf56]" started-at="2022-05-01T20:22:49Z" name="addToCartTest" data-provider="getProduct" finished-at="2022-05-01T20:23:17Z" duration-ms="28017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.AddToCartPageTest@5b1ebf56]" started-at="2022-05-01T20:23:17Z" name="tearDown" finished-at="2022-05-01T20:23:17Z" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.testcases.AddToCartPageTest -->
+      <class name="com.ecommerce.testcases.SearchResultPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.SearchResultPageTest@294a6b8e]" started-at="2022-05-01T20:18:52Z" name="setup" finished-at="2022-05-01T20:19:04Z" duration-ms="12330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productAvailabilityTest()[pri:0, instance:com.ecommerce.testcases.SearchResultPageTest@294a6b8e]" started-at="2022-05-01T20:19:04Z" name="productAvailabilityTest" finished-at="2022-05-01T20:19:14Z" duration-ms="9129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAvailabilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.SearchResultPageTest@294a6b8e]" started-at="2022-05-01T20:19:14Z" name="tearDown" finished-at="2022-05-01T20:19:14Z" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.testcases.SearchResultPageTest -->
+      <class name="com.ecommerce.testcases.LoginPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.ecommerce.testcases.LoginPageTest@77825085]" started-at="2022-05-01T20:18:01Z" name="loadConfig" finished-at="2022-05-01T20:18:02Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.LoginPageTest@77825085]" started-at="2022-05-01T20:18:02Z" name="setup" finished-at="2022-05-01T20:18:19Z" duration-ms="16470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.testcases.LoginPageTest@77825085]" started-at="2022-05-01T20:18:19Z" name="loginTest" data-provider="credentials" finished-at="2022-05-01T20:18:28Z" duration-ms="8578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashu123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.LoginPageTest@77825085]" started-at="2022-05-01T20:18:28Z" name="tearDown" finished-at="2022-05-01T20:18:29Z" duration-ms="1444" status="FAIL">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'System info: host: 'LAPTOP-OC9VCOAV', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'Driver info: driver.version: RemoteWebDriverCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}), userDataDir=C:\Users\ashur\AppData\Local\Temp\scoped_dir8592_535640938}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52541}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=100.0.4896.127, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]Session ID: 92f371144e8cfc38e3faf110d2b32866]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'System info: host: 'LAPTOP-OC9VCOAV', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'Driver info: driver.version: RemoteWebDriverCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}), userDataDir=C:\Users\ashur\AppData\Local\Temp\scoped_dir8592_535640938}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52541}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=100.0.4896.127, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]Session ID: 92f371144e8cfc38e3faf110d2b32866at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)at com.ecommerce.testcases.LoginPageTest.tearDown(LoginPageTest.java:30)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:634)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Couldn't detect pidat org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:265)at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:219)at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:127)at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:220)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)... 31 moreCaused by: java.lang.RuntimeException: Couldn't detect pidat org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)... 39 moreCaused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @4cc0edebat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)at java.base/java.lang.reflect.Field.setAccessible(Field.java:171)at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)... 40 more]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.ecommerce.testcases.LoginPageTest@77825085]" started-at="2022-05-01T20:23:17Z" name="afterSuite" finished-at="2022-05-01T20:23:17Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.ecommerce.testcases.LoginPageTest -->
+      <class name="com.ecommerce.testcases.OrderPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.OrderPageTest@3e7dd664]" started-at="2022-05-01T20:19:14Z" name="setup" finished-at="2022-05-01T20:19:25Z" duration-ms="10443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTotalPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.testcases.OrderPageTest@3e7dd664]" started-at="2022-05-01T20:19:25Z" name="verifyTotalPrice" data-provider="getProduct" finished-at="2022-05-01T20:19:57Z" duration-ms="32793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.OrderPageTest@3e7dd664]" started-at="2022-05-01T20:19:57Z" name="tearDown" finished-at="2022-05-01T20:19:58Z" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.testcases.OrderPageTest -->
+      <class name="com.ecommerce.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" started-at="2022-05-01T20:21:15Z" name="setup" finished-at="2022-05-01T20:21:25Z" duration-ms="9416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wishListTest(java.lang.String, java.lang.String)[pri:1, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" started-at="2022-05-01T20:21:25Z" name="wishListTest" data-provider="credentials" finished-at="2022-05-01T20:21:38Z" duration-ms="13694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashu123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" started-at="2022-05-01T20:21:38Z" name="tearDown" finished-at="2022-05-01T20:21:39Z" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" started-at="2022-05-01T20:21:39Z" name="setup" finished-at="2022-05-01T20:22:31Z" duration-ms="51998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderHistoryandDetailsTest(java.lang.String, java.lang.String)[pri:2, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" started-at="2022-05-01T20:22:31Z" name="orderHistoryandDetailsTest" data-provider="credentials" finished-at="2022-05-01T20:22:40Z" duration-ms="9249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashu123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryandDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.HomePageTest@3568f9d2]" started-at="2022-05-01T20:22:40Z" name="tearDown" finished-at="2022-05-01T20:22:40Z" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.testcases.HomePageTest -->
+      <class name="com.ecommerce.testcases.IndexPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" started-at="2022-05-01T20:18:29Z" name="setup" finished-at="2022-05-01T20:18:42Z" duration-ms="13283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogo()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" started-at="2022-05-01T20:18:42Z" name="verifyLogo" finished-at="2022-05-01T20:18:42Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" started-at="2022-05-01T20:18:42Z" name="tearDown" finished-at="2022-05-01T20:18:43Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" started-at="2022-05-01T20:18:43Z" name="setup" finished-at="2022-05-01T20:18:52Z" duration-ms="9352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" started-at="2022-05-01T20:18:52Z" name="verifyTitle" finished-at="2022-05-01T20:18:52Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.testcases.IndexPageTest@71c27ee8]" started-at="2022-05-01T20:18:52Z" name="tearDown" finished-at="2022-05-01T20:18:52Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.testcases.IndexPageTest -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
+</testng-results>

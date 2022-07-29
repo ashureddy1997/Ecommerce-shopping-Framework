@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test_All</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">315,517</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test_All &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.ecommerce.testcases.LoginPageTest</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1651416508052</td><td rowspan="1">1444</td></tr><tr><th colspan="4">Test_All &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.ecommerce.testcases.LoginPageTest</td><td><a href="#m1">afterSuite</a></td><td rowspan="1">1651416797827</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test_All &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ecommerce.testcases.AddToCartPageTest</td><td><a href="#m2">addToCartTest</a></td><td rowspan="1">1651416769561</td><td rowspan="1">28017</td></tr><tr class="passedodd"><td rowspan="1">com.ecommerce.testcases.EndToEndTest</td><td><a href="#m3">endToEndTest</a></td><td rowspan="1">1651416611158</td><td rowspan="1">64186</td></tr><tr class="passedeven"><td rowspan="2">com.ecommerce.testcases.HomePageTest</td><td><a href="#m4">orderHistoryandDetailsTest</a></td><td rowspan="1">1651416751233</td><td rowspan="1">9249</td></tr><tr class="passedeven"><td><a href="#m5">wishListTest</a></td><td rowspan="1">1651416685183</td><td rowspan="1">13694</td></tr><tr class="passedodd"><td rowspan="2">com.ecommerce.testcases.IndexPageTest</td><td><a href="#m6">verifyLogo</a></td><td rowspan="1">1651416522800</td><td rowspan="1">119</td></tr><tr class="passedodd"><td><a href="#m7">verifyTitle</a></td><td rowspan="1">1651416532462</td><td rowspan="1">57</td></tr><tr class="passedeven"><td rowspan="1">com.ecommerce.testcases.LoginPageTest</td><td><a href="#m8">loginTest</a></td><td rowspan="1">1651416499437</td><td rowspan="1">8578</td></tr><tr class="passedodd"><td rowspan="1">com.ecommerce.testcases.OrderPageTest</td><td><a href="#m9">verifyTotalPrice</a></td><td rowspan="1">1651416565195</td><td rowspan="1">32793</td></tr><tr class="passedeven"><td rowspan="1">com.ecommerce.testcases.SearchResultPageTest</td><td><a href="#m10">productAvailabilityTest</a></td><td rowspan="1">1651416544998</td><td rowspan="1">9129</td></tr></tbody>
+</table>
+<h2>Test_All</h2><h3 id="m0">com.ecommerce.testcases.LoginPageTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;LAPTOP-OC9VCOAV&apos;, ip: &apos;192.168.43.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}), userDataDir=C:\Users\ashur\AppData\Local\Temp\scoped_dir8592_535640938}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52541}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=100.0.4896.127, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 92f371144e8cfc38e3faf110d2b32866
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
+	at com.ecommerce.testcases.LoginPageTest.tearDown(LoginPageTest.java:30)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn&apos;t taskkill it: Couldn&apos;t detect pid
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:265)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:219)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:127)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:220)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	... 31 more
+Caused by: java.lang.RuntimeException: Couldn&apos;t detect pid
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+	... 39 more
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)
+	... 40 more
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ecommerce.testcases.LoginPageTest#afterSuite</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.ecommerce.testcases.AddToCartPageTest#addToCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>t-shirt</td><td>2.0</td><td>M</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ecommerce.testcases.EndToEndTest#endToEndTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>t-shirt</td><td>2.0</td><td>M</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.ecommerce.testcases.HomePageTest#orderHistoryandDetailsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ashu123@gmail.com</td><td>pandu@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.ecommerce.testcases.HomePageTest#wishListTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ashu123@gmail.com</td><td>pandu@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.ecommerce.testcases.IndexPageTest#verifyLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.ecommerce.testcases.IndexPageTest#verifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.ecommerce.testcases.LoginPageTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ashu123@gmail.com</td><td>pandu@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.ecommerce.testcases.OrderPageTest#verifyTotalPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>t-shirt</td><td>2.0</td><td>M</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.ecommerce.testcases.SearchResultPageTest#productAvailabilityTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
